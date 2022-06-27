@@ -1,0 +1,10 @@
+The training for each model takes about 6 minutes on the test computer.
+
+RASTRIGIN
+In 4 of 5 cases, after x-th iteration, the test acc[mse] was: <25 (1st iter.), <10 (2nd), <4 (3rd)
+In 1 of 5 cases, the model loss decreased slowly and had a final test acc[mse] of about 70. (Note: If in the first 20 epochs of model training, the loss[mse] is not <100, the last case has occured and it is recommended to restart the training.)
+The minimal test acc[mse] achieved was 0.8.
+
+SCHWEFEL
+In 5 of 5 cases after x-th iteration the test acc[mse] was: <21k (1st iter.), <6k (2nd), <2.5k (3rd)
+The minimal test acc[mse] achieved was 1.2k.
